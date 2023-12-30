@@ -1,3 +1,10 @@
+.header {
+	height: 86px;
+	margin-left: 124px;
+	margin-right: 124px;
+	border-bottom: 1px solid #000;
+}
+
 .typography_logo {
 	font-family: Zilla Slab;
 	font-size: 32px;
@@ -14,4 +21,9 @@
 	align-items: center;
 	gap: 8px;
 	background: #000;
+}
+
+.main_content{
+	margin-left: 228px;
+	margin-right: 228px;
 }
