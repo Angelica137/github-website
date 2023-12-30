@@ -131,6 +131,8 @@ h4 {
 }
 
 footer {
+	display: flex;
+	justify-content: flex-end;
 	padding: 24px;
 	text-align: left;
 	margin-top: auto;
