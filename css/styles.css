@@ -57,6 +57,7 @@ p {
 	font-style: light;
   font-weight: 300;
   line-height: normal;
+	line-height: 26px;
 }
 
 h3 {
@@ -123,7 +124,18 @@ ul {
 }
 
 h4 {
-	margin: 0px
+	margin: 0px;
+	color: #000;
+}
+
+.card-content {
+	color: #000;
+}
+
+label {
+	font-family: Zilla Slab;
+	font-weight: 400;
+	color: #F97068;
 }
 
 .social-media {
