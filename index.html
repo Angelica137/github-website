@@ -2,18 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device=width" , initial-scale="1.0" />
     <script defer src="js/script.js"></script>
     <title>Angelica's coding journey</title>
+    <meta name="description" content="This is website portfolio" />
+    <meta name="viewport" content="width=device=width" , initial-scale="1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
-      <div id="logo">
-        <h1>Angelica UXD&D</h1>
+      <div class="header section">
+        <h1 class="typography_logo logo_background">Angelica UXD&D</h1>
       </div>
     </header>
-    <div>
-      <h2>
+    <div class="main_content section">
+      <h2 class="">
         Hi, I am Angelica, A UX designer and budding developer working and
         living in London.
       </h2>
@@ -29,22 +37,52 @@
         is a natural progression for me. I believe Founders & Coders can help me
         achieve this dream.
       </p>
-    </div>
-    <div>
+			</div>
+			<div class="main_content section">
       <h3>For your enjoyment, here are some of my projects</h3>
+
       <ul>
-        <li>Project 1</li>
-        <li>Project 2</li>
-        <li>Project 3</li>
+        <li>
+					<div class="card-container">
+						<div class="card2 top-card">
+							<h4>Project title</h4>
+							<p>Content</p>
+							<label>date</label>
+						</div>
+						<div class="card2 bottom-card"></div>
+					</div>
+        </li>
+        <li>
+					<div class="card-container">
+						<div class="card2 top-card">
+							<h4>Project title</h4>
+							<p>Content</p>
+							<label>date</label>
+						</div>
+						<div class="card2 bottom-card"></div>
+					</div>
+        </li>
+        <li>
+					<div class="card-container">
+						<div class="card2 top-card">
+							<h4>Project title</h4>
+							<p>Content</p>
+							<label>date</label>
+						</div>
+						<div class="card2 bottom-card"></div>
+					</div>
+        </li>
       </ul>
+			</div>
     </div>
-    <div>
+    <footer>
       <ul>
-        <li>github</li>
-        <li>linkedin</li>
-        <li>instagram</li>
+        <li><img class="social-media" src="assets/Github.svg" alt="Github"></li>
+        <li><img class="social-media" src="assets/LinkedIn.svg" alt="LinkedIn"></li>
+        <li><img class="social-media" src="assets/Instagram.svg"></li>
       </ul>
-    </div>
+    </footer>
+
     <script>
       //JS code lives here
     </script>

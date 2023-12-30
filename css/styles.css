@@ -24,6 +24,18 @@
 	background: #000;
 }
 
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+}
+
+main {
+	flex: 1;
+	padding: 20px;
+}
+
 .section {
 	margin-bottom: 60px;
 }
@@ -102,7 +114,7 @@ ul {
 
 .card-container:hover .bottom-card {
   transform: translate(2px, 2px);
-	background-color: blue;
+	background-color: #807FFE;
 }
 
 .card-container:hover + li .top-card {
@@ -116,4 +128,9 @@ h4 {
 
 .social-media {
 	margin: 8px;
+}
+
+footer {
+	padding: 24px;
+	text-align: left;
 }
