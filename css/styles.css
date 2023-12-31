@@ -142,6 +142,10 @@ label {
 	margin: 8px;
 }
 
+.social-media:hover{
+	color: #807FFE !important;
+}
+
 footer {
 	display: flex;
 	justify-content: flex-end;
