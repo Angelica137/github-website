@@ -140,6 +140,8 @@ label {
 
 .social-media {
 	margin: 8px;
+	fill: #F97068;
+	transition: fill 0.3 ease;
 }
 
 .social-media:hover{
